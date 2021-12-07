@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/checkout.js') }}"></script>
+	<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+	<div id="top_container">
+		<div id="title">
+			<h1>EZShop!</h1>
+		</div>
+		<div id="top_bar">
+			<div id="nav_button1" class="nav">
+				<a id="home" href="/"></a>
+			</div>
+
+			<div id="nav_button2" class="nav">
+				<a id="shopping" href="/shopping_cart"></a>
+			</div>
+
+			<div id="nav_button3" class="nav">
+				<a id="checkout" href="/checkout"></a>
+			</div>
+		</div>
+	</div>
+	<div id="content" class="shopping_list"></div>
+</body>
+
