@@ -11,7 +11,7 @@
 # Table Of Contents
 0. [Project Description](#project-description)
 1. [Page Layout](#page-layout)
-2. [Planning Phase](#planning-phase)
+2. [Planning Phase](#check-out-the-planning-phase)
 3. [Design Phase](#design-phase)
 4. [Iteration](#iteration)
 5. [Code & Electronics](#code-&-electronics)
@@ -30,7 +30,7 @@ Here lie `.pdf` versions of our presentations presented to our classmates, Amazo
 This folder contains three subfolders: `css`, `js`, and `images` which are used within the server to host stylesheets, internal scripts, and images
 ## `templates`
 This holds various `html` files which the server renders
-# Planning Phase
+# [Check out the Planning Phase](https://github.com/drybell/Senior_Design/tree/master/planning)
 # Design Phase
 # Iteration
 # Code & Electronics
