@@ -34,4 +34,35 @@ This holds various `html` files which the server renders
 # [Check out the Planning Phase](https://github.com/drybell/Senior_Design/tree/master/planning)
 # [Check out the Design Phase](https://github.com/drybell/Senior_Design/tree/master/design)
 # Code & Electronics
+
+![home](images/ez-shop.png)
+
+Home Page for the Pi-hosted webpage
+
+![shopping](images/shopping-cart.png)
+
+Shopping Cart View
+
+![checkout](images/checkout.png)
+
+Checkout View
+---
+
+### Code Layout
+The code is split up in the following scripts:
+- `app.py`: the main driver and server code
+- `arduino_comm.py`: focuses on the Pi communicating with the Arduino
+- `vending.py`: implements a high-level vending machine abstraction
+- `pca9685.py`: is a low-level servo hat I2C script for running servos
+- `dc_motor.py`: implements low-level GPIO outputs for the L298N motor driver
+- `servo.py`: utilizes `pca9685` to send servo angle commands
+- `static/css/style.css`: CSS styling for the entire webpage and all routes
+- `static/js/home.js`: Frontend script for populating the home page of the server
+- `static/js/checkout.js`: Frontend logic for checkout view
+- `static/js/shopping_cart.js`: Frontend logic for the shopping cart view
+
+All JS communicates with the server in order to get up-to-date inventory items, costs, etc. The `app.py` script also contains an inventory class that assists in tracking current user inventory and shop inventory, and can be easily modified depending on the vendor's needs. Once the user clicks on checkout, the Pi then sends the necessary commands to the Arduino and other electronics to move the system to the correct location, perform an extension and retraction, and drop off the item(s) to a "conveyor belt".
+
 # Demo
+
+[Here](https://drive.google.com/file/d/1jwLgcZQVQoNJhB84unmDqcdiakTV3B3j/view?usp=sharing) you can view a video of the demo presentation and my thoughts on the semester-long project.

@@ -36,7 +36,13 @@ The initial design of the XY Plotter used for our vending machine.
 For the first prototype, we focused on getting the XY Plotter system to work with manual and automated modes. The manual mode would utilize two joysticks to drive the linear actuators together to perform a representative movement. The automated mode would keep track of total number of steps in any direction that the steppers have rotated since initialization and navigate towards a specified location. We had some tolerancing issues on some fits, but we had enough time to iterate, reprint, and test new versions of our motor mounts. The next focus was to build the linear actuator mount and test the system. 
 
 ## Further Testing and Iteration
-<!-- ![final](images/final.jpg) -->
+![final](images/final.jpg)
+
+Final View of our system
+
+For the final stretch of our project we focused on iterating the linear actuator sub-system, building out the cube and shelves, as well as securing everything to a wood base. I transitioned to working on the code and electronics interfaces, which can be found [here](https://github.com/drybell/Senior_Design#code--electronics).
+
+## Addendum
 
 ![parts](images/parts.jpg)
 A teardown view of most of the parts utilized in our demo-day build for the vending machine.

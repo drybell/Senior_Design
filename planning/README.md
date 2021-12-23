@@ -8,7 +8,8 @@ We began our design and planning process by starting off with a quick Gantt Char
 
 ## Spec Sheet
 *(View Spec Sheet.pdf for more details)*
-![spec](images/spec.jpeg)
+![spec](images/spec-sheet-final.png)
+
 After finalizing our plan for the semester, we transitioned to a House of Quality, or Specification Sheet given some of our stakeholder requirements and needs. We focused on ease-of-use and accuracy for product requirements and split potential stakeholders into grocery store owners, in-store employees, busy professionals, and physically handicapped individuals. The House of Quality allowed us to identify trends in what the general population would require from our product. 
 
 ## Set A Design
